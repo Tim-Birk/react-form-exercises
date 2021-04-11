@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Box List
+  </h1>
+  <form>
+    <div>
+      <label
+        for="color"
+      >
+        Color:
+      </label>
+      <input
+        id="color"
+        name="color"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        for="width"
+      >
+        Width:
+      </label>
+      <input
+        id="width"
+        name="width"
+        type="number"
+        value=""
+      />
+      <span>
+        px
+      </span>
+    </div>
+    <div>
+      <label
+        for="height"
+      >
+        Height:
+      </label>
+      <input
+        id="height"
+        name="height"
+        type="number"
+        value=""
+      />
+      <span>
+        px
+      </span>
+    </div>
+    <button>
+      Add New
+    </button>
+  </form>
+  <div
+    class="BoxList"
+  >
+    <div
+      class="Box"
+    >
+      <div
+        data-testid="Box-green-100-115"
+        style="background-color: green; width: 100px; height: 115px;"
+      />
+      <button
+        data-testid="Box-delete-green-100-115"
+      >
+        X
+      </button>
+    </div>
+    <div
+      class="Box"
+    >
+      <div
+        data-testid="Box-yellow-90-85"
+        style="background-color: yellow; width: 90px; height: 85px;"
+      />
+      <button
+        data-testid="Box-delete-yellow-90-85"
+      >
+        X
+      </button>
+    </div>
+    <div
+      class="Box"
+    >
+      <div
+        data-testid="Box-red-190-185"
+        style="background-color: red; width: 190px; height: 185px;"
+      />
+      <button
+        data-testid="Box-delete-red-190-185"
+      >
+        X
+      </button>
+    </div>
+    <div
+      class="Box"
+    >
+      <div
+        data-testid="Box-black-175-140"
+        style="background-color: black; width: 175px; height: 140px;"
+      />
+      <button
+        data-testid="Box-delete-black-175-140"
+      >
+        X
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Box"
+  >
+    <div
+      data-testid="Box-undefined-undefined-undefined"
+    />
+    <button
+      data-testid="Box-delete-undefined-undefined-undefined"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
