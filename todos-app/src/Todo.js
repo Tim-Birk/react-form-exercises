@@ -5,7 +5,7 @@ const Todo = ({ id, task, removeTodo }) => {
     removeTodo(id);
   };
 
-  const testId = task.replace(/[^A-Z0-9]/gi, '_');
+  const testId = task ? task.replace(/[^A-Z0-9]/gi, '_') : '';
   return (
     <li data-testid={`Todo-${testId}`} className='Todo'>
       <div className='Todo-task'>- {task}</div>
