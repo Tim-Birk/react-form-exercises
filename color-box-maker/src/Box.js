@@ -11,11 +11,10 @@ const Box = ({ id, color, width, height, removeBox }) => {
     removeBox(id);
   };
 
-  const testId = `${color}-${width}-${height}`;
   return (
     <div className='Box'>
-      <div data-testid={`Box-${testId}`} style={style}></div>
-      <button data-testid={`Box-delete-${testId}`} onClick={handleRemove}>
+      <div data-testid='Box' style={style}></div>
+      <button data-testid='Box-delete' onClick={handleRemove}>
         X
       </button>
     </div>
